@@ -1,0 +1,16 @@
+{
+  "presets": ["@babel/preset-react"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@component": "./components",
+          "@contract": "./contracts",
+          "@config": "./config"
+        }
+      }
+    ]
+  ]
+}
